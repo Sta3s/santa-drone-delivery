@@ -15,9 +15,8 @@ tello = Tello()
 
 tello.connect()
 tello.takeoff()
-tello.rotate_clockwise(180)
+tello.rotate_counter_clockwise(180)
 tello.set_speed(20)
-
 tello.move_forward(123)
 tello.rotate_counter_clockwise(90)
 tello.land()
