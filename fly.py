@@ -15,18 +15,34 @@ tello = Tello()
 
 tello.connect()
 tello.takeoff()
-
+tello.rotate_clockwise(180)
 tello.set_speed(20)
 
-tello.move_left(100)
-tello.move_right(100)
-tello.move_forward(100)
-tello.move_back(100)
-
+tello.move_forward(123)
+tello.rotate_counter_clockwise(90)
 tello.land()
 tello.takeoff()
-
-tello.rotate_clockwise(360)
-tello.rotate_counter_clockwise(360)
-
+tello.move_forward(90)
+tello.rotate_clockwise(90)
+tello.move_forward(100)
+tello.rotate_clockwise(90)
 tello.land()
+tello.takeoff()
+tello.move_forward(90)
+tello.rotate_clockwise(90)
+tello.move_forward(190)
+tello.land()
+
+
+# tello.move_left(100)
+# tello.move_right(100)
+# tello.move_forward(100)
+# tello.move_back(100)
+
+# tello.land()
+# tello.takeoff()
+
+# tello.rotate_clockwise(360)
+# tello.rotate_counter_clockwise(360)
+
+# tello.land()
