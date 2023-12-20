@@ -1,4 +1,5 @@
 from djitellopy import Tello
+import time
 
 # Uzdevums: Iziet trasi ar koda palidzību
 # Noteikumi:
@@ -20,20 +21,20 @@ tello.set_speed(20)
 tello.move_forward(123)
 tello.rotate_counter_clockwise(90)
 tello.land()
-tello.sleep(3)
+time.sleep(3)
 tello.takeoff()
 tello.move_forward(90)
 tello.rotate_clockwise(90)
 tello.move_forward(100)
 tello.rotate_clockwise(90)
 tello.land()
-tello.sleep(3)
+time.sleep(3)
 tello.takeoff()
 tello.move_forward(90)
 tello.rotate_clockwise(90)
 tello.move_forward(190)
 tello.land()
-tello.sleep(3)
+time.sleep(3)
 
 
 # tello.move_left(100)
