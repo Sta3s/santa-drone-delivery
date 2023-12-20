@@ -6,7 +6,6 @@ from djitellopy import Tello
 # - jaapmeklē visas platformas
 # - jaātgriezas atpakaļ
 # - caur vārtiem drīkst līdot tikai taisni (ar kāmeru priekšā)
-
 # Dokumentācija un piemēri
 # https://github.com/damiafuentes/DJITelloPy/tree/master
 # https://github.com/damiafuentes/DJITelloPy/blob/master/examples/simple.py
